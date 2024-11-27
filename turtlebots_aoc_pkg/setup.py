@@ -22,7 +22,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'goal_publisher = turtlebots_aoc_pkg.goal_publisher:main'
+            'goal_publisher = turtlebots_aoc_pkg.goal_publisher:main',
+            'tb3_follower = turtlebots_aoc_pkg.tb3_follower:main',
+            'multi_tb3_follower = turtlebots_aoc_pkg.multi_tb3_follower:main',
         ],
     },
 )
