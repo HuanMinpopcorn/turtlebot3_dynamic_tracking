@@ -38,10 +38,14 @@ If you don’t have ROS 2 Humble installed, follow the instructions for installi
 Follwo the instruction to intall nessarary turtlebot3 packages from official [Turtlebot3 PC setup](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup).
 Run the simulation, you need to add the simulation package in your workspace [Turtlebot3 simulation guide](https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/)
 
+### Run the multiple robot follower 
+In 'terminal 1'
 ```bash
-$ cd ~/turtlebot3_ws/src/
-$ git clone -b humble-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
-$ cd ~/turtlebot3_ws && colcon build --symlink-install
-
-
-
+ros2 launch turtlebot3_multi_robot gazebo_multi_world.launch.py
+```
+In 'terminal 2'
+```bash
+ros2 run turtlebots_aoc_pkg multi_follower
+```
+* [multi-robot-video](https://youtu.be/8F5dVyIByNg) 
+* [two-robots-video](https://youtu.be/urKhxX07TNw)
