@@ -9,12 +9,8 @@
 - **ROS 2 Integration:** Fully integrates with ROS 2 (Humble) to control the TurtleBot3 robot and visualize the tracking performance.
 - **Nav2 Integration:** Uses Nav2 (Navigation 2) for robust autonomous navigation and path-following.
 - **Simulated Environment:** Includes simulation support, allowing you to test the algorithm in a simulated Gazebo environment before running it on the physical robot.
-- **Open Source Scout Mini + Indro Commander Dataset:**<a href="https://universe.roboflow.com/scout-0ptgg/scoutmini">
-    <img src="https://app.roboflow.com/images/download-dataset-badge.svg"></img>
-</a>
-- **Pretrained Computer Vision Model**: <a href="https://universe.roboflow.com/scout-0ptgg/scoutmini/model/">
-    <img src="https://app.roboflow.com/images/try-model-badge.svg"></img>
-</a>
+- **Open Source Scout Mini + Indro Commander Dataset:**<a href="https://universe.roboflow.com/scout-0ptgg/scoutmini"><img src="https://app.roboflow.com/images/download-dataset-badge.svg"></img></a>
+- **Pretrained Computer Vision Model**: <a href="https://universe.roboflow.com/scout-0ptgg/scoutmini/model/"><img src="https://app.roboflow.com/images/try-model-badge.svg"></img></a>
 
 ## Table of Contents
 
