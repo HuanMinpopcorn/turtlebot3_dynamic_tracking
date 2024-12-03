@@ -28,7 +28,7 @@ class DynamicTracking(Node):
         self.follower_publisher = self.create_publisher(
             PoseStamped,
             f'/{self.follower_robot}/goal_pose',
-            10
+            50
         )
 
         # Variable to store the lead robot's position and orientation
